@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javascript</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Javascript</h1>
-    
-</body>
-<script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#">
+      <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+      </div>
+
+      <label for="pet-select">Choose a pet:</label>
+
+      <div>
+          <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="technical_support">Tehniskais atbalsts</option>
+            <option value="offers">Piedāvājumi</option>
+            <option value="general">Vispārīgi jautājumi</option>
+          </select>
+      </div>
+
+      <div>
+          <label for="agreement">Piekrītat saņemt jaunumus?</label>
+          <input type="checkbox" id="agreement" />
+      </div>
+
+      <div> <input type="submit" value="Sūtīt" /> </div>
+    </form>
+  </body>
+  <script src="script.js"></script>
 </html>
